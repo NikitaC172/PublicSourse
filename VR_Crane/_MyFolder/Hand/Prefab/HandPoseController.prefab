@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8652661059816374874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8652661059816374875}
+  - component: {fileID: 8652661059816374877}
+  - component: {fileID: 8652661059816374876}
+  - component: {fileID: 8652661059816374878}
+  m_Layer: 0
+  m_Name: HandPoseController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8652661059816374875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652661059816374874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.79112, y: 12.966706, z: 1.4197037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8652661059816374877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652661059816374874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe3784d5c4d238409811720aee1ac0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animatorHand: {fileID: 0}
+  _point: {fileID: 7400000, guid: 9d90ceb4f3a8d024896cddd594ff6ec3, type: 2}
+  _bigUp: {fileID: 7400000, guid: 9ab6cd12ff6980f4b987a1b030135664, type: 2}
+  _take: {fileID: 7400000, guid: 0010247c4c8350f4ab3498b28a53af6c, type: 2}
+  _default: {fileID: 7400000, guid: 71e574dcf749ef543a234a8f250c1874, type: 2}
+--- !u!114 &8652661059816374876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652661059816374874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe3784d5c4d238409811720aee1ac0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animatorHand: {fileID: 0}
+  _point: {fileID: 7400000, guid: ab879e925b3bd294781ea5193f2676cd, type: 2}
+  _bigUp: {fileID: 7400000, guid: 65755acfa6b09d348a7459f3896dda0a, type: 2}
+  _take: {fileID: 7400000, guid: 5bb19bbd2ebde4543bcc30dd02b684c0, type: 2}
+  _default: {fileID: 7400000, guid: 6a55cec3279641d40b2fb6c897c0ca7c, type: 2}
+--- !u!114 &8652661059816374878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652661059816374874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a98aaeccc066f44a68c28ba01bd51e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GripLeftStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374877}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetPointPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  TriggerLeftStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374877}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetTakePose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandConnector, Assembly-CSharp
+        m_MethodName: SetConnect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandRenderer, Assembly-CSharp
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  XLeftStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374877}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetBigUpPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.CargoJoint, Assembly-CSharp
+        m_MethodName: ConnectCargoHandPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  YLeftStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MenuInGame, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  GripLeftCanceled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374877}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetDefaultPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  TriggerLeftCanceled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374877}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetDefaultPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandConnector, Assembly-CSharp
+        m_MethodName: DisconnectBody
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandRenderer, Assembly-CSharp
+        m_MethodName: Deactivate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  XLeftCanceled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374877}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetDefaultPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  GripRightStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374876}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetPointPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  TriggerRightStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374876}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetTakePose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandConnector, Assembly-CSharp
+        m_MethodName: SetConnect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandRenderer, Assembly-CSharp
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ARightStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374876}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetBigUpPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.CargoJoint, Assembly-CSharp
+        m_MethodName: ConnectCargoHandPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  GripRightCanceled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374876}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetDefaultPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  TriggerRightCanceled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374876}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetDefaultPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandConnector, Assembly-CSharp
+        m_MethodName: DisconnectBody
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CraneGame.HandRenderer, Assembly-CSharp
+        m_MethodName: Deactivate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ARightCanceled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8652661059816374876}
+        m_TargetAssemblyTypeName: PoseChanger, Assembly-CSharp
+        m_MethodName: SetDefaultPose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

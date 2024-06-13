@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2718409441513480226
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1755840263914774853, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_Size.y
+      value: 2.8529856
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755840263914774853, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_Center.y
+      value: 1.4329695
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192217642045703763, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_Name
+      value: 20ftBrownCargoPrefab Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169019723461698973, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+--- !u!4 &535331636255155014 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2509731714754855780, guid: 77298de0430e90e4fadb828e1c8be476, type: 3}
+  m_PrefabInstance: {fileID: 2718409441513480226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5098040591729118697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 535331636255155014}
+    m_Modifications:
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2594
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2559
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.0587
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000009735359
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021333116370523345, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402924865594052203, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
+      propertyPath: m_Name
+      value: Container_20FT_Brown
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ae43d8e5ff093ea48b7dec560809274e, type: 3}
