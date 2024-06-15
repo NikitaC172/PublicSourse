@@ -16,10 +16,6 @@ namespace CraneGame
                 DetectedConflict?.Invoke();
                 TensionOver?.Invoke();
             }
-            else
-            {
-                //TensionOver?.Invoke();
-            }
         }
 
         private void OnTriggerExit(Collider other)

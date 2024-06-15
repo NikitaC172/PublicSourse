@@ -97,7 +97,6 @@ namespace CraneGame
 
         private void FixedUpdate()
         {
-            //if(_isActive == true) ////////
             {
                 _positionArm = _armForMoveAxis.gameObject.transform.localRotation.z;
 
